@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW</title>
+    <style>
+        .home {
+            text-decoration: none;
+            font-size: xx-large;
+            padding-left: 500px;
+        }
+        .page {
+            text-decoration: none;
+            font-size: xx-large;
+            color: white;
+        }
+        .contact {
+            text-decoration: none;
+            font-size: xx-large;
+            color: white;
+        }
+        li {
+            display: inline-block;
+        }
+        li a {
+            padding: 8px;
+            text-decoration: none;
+        }
+        .menus {
+            background-color: black;
+        }
+        .brainimage {
+            display: inline-block;
+            margin-top: -5px;
+            margin-bottom: -20px;
+        }
+        .title {
+            padding-left: 5px;
+            display: inline-block;
+        }
+        nav {
+            width: 120%;
+            height: 50px;
+            margin-top: -16px;
+            margin-left: -10px;
+        }
+        .login {
+            text-transform: none;
+            font-size: xx-large;
+        }
+        #loginbox {
+            background-color: coral;
+            padding: 5px;
+            border: 1px solid;
+        }
+        .signup {
+            text-transform: none;
+            font-size: xx-large;
+        }
+        #signupbox {
+            padding: 5px;
+            border: 1px solid white;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            color: white;
+            font-size: xx-large;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+            color: black;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .image1 {
+            margin-top: 35px;
+        }
+        .cprt {
+            margin-left: 44%;
+            font-size: small;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+<nav>
+    <ul class = "menus">
+        <img src="../index8/image/brain logo.jpg" class = "brainimage" width="60px" height="50px">
+        <h1 style = "color: white;" class = "title"><b> Stack</b></h1>
+        <li><a class = "home" href="../index8/index8.html">Home</a></li>
+        <li>
+            <div class="dropdown">
+                <span>Pages</span>
+                <div class="dropdown-content">
+                  <p><a href="../flower day.mp3">Music</a></p>
+                  <p><a href="../advertise.mp4">Support Advertises</a></p>
+                </div>
+              </div>
+        </li>
+        <li><a class = "contact" href = "../Day 4/pictuer/coca.jpg">Contact</a></li>
+        <li>
+            <div id="loginbox">
+                <a href="../index8/signup.html" class = "login">Log In</a>
+            </div>
+        </li>
+        <li>
+            <div id = "signupbox">
+                <a href="../index8/signup.html" class = signup>Sign Up</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<body>
+    <img src="../index8/image/delight.jfif" class = "image1" width="800px" height="430px">
+    <img src="../index8/image/bike.jpg" class = "image2" width="430px" height="430px">
+</body>
+<footer>
+    <h2><i class = "cprt">Copyright 2018 by ABC group</i></h2>
+</footer>
+</html>

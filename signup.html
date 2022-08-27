@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        .title1 {
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .info1 {
+            color: coral;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .info2 {
+            color: coral;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .signupmenu {
+            border: 2px solid white;
+            display: inline-block;
+            padding: 40px;
+            padding-top: -5px;
+            background-color: rgb(243, 240, 240);
+            margin-left: 38%;
+        }
+        .submitbutton {
+            text-decoration: none;
+            border: 1px solid green;
+            background-color: green;
+            padding: 5px;
+            display: inline-block;
+        }
+        .submitbutton:link{
+            color: white;
+        }
+        .buttondiv {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class = "menudk">
+        <div class = "signupmenu">
+            <form action="">
+                <table>
+                    <div>
+                    <h2 class = "title1">Sign Up</h2>
+                    <h3 class = "info1">Your Basic Info</h3>
+                    <div>
+                        <label for="info1name">Name: </label>
+                        <br>
+                        <input type="text" required>
+                    </div>
+                    <div>
+                        <label for="info1email">Email: </label>
+                        <br>
+                        <input type="email" required>
+                    </div>
+                    <div>
+                        <label for="info1password">Password: </label>
+                        <br>
+                        <input type="password" required>
+                    </div>
+                    <div>
+                        <label for="info1age">Age: </label>
+                        <div>
+                            <input type="radio" id = "upperage" value = "upperage" name = "ages" required> <!-- giving name will differentiate between to radio buttons -->
+                            <label for="upperage">18 or Above</label>
+                            <br>
+                        </div>
+                        <div>
+                            <input type="radio" id = "lowerage" value = "lowerage" name = "ages" required>
+                            <label for="lowerage">Under 18</label>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                        <h3 class = "info2">Your Profile</h3>
+                        <div>
+                            <label for="">Biography:</label>
+                            <br>
+                            <textarea name="" id="" cols="30" rows="3" required></textarea>
+                        </div>
+                        <div>
+                            <label for="">Job Role: </label>
+                            <br>
+                            <select name="" id="" required>
+                                <optgroup label="Web">
+                                    <option value="">Front-End Developer</option>
+                                    <option value="">PHP Developer</option>
+                                    <option value="">Python Developer</option>
+                                    <option value="">Rails Developer</option>
+                                    <option value="">Web Designer</option>
+                                    <option value="">WordPress Developer</option>
+                                </optgroup>
+                                <optgroup label="Mobile">
+                                    <option value="">Android Developer</option>
+                                    <option value="">iOS Developer</option>
+                                    <option value="">Mobile Designer</option>
+                                </optgroup>
+                                <optgroup label="Business">
+                                    <option value="">Business Owner</option>
+                                    <option value="">Freelancer</option>
+                                </optgroup>
+                                <optgroup label = "Other">
+                                    <option value="">Secretary</option>
+                                    <option value="">Maintenance</option>
+                                    <option value="" selected>None</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <br>
+                        <div class = "buttondiv">
+                            <a href="../index8/index8.html" class = "submitbutton">Sign up</a>
+                        </div>
+                    </div>
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
